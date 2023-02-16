@@ -1,0 +1,118 @@
+body {
+    background-image: url("BackGround2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
+}
+
+nav {
+    background-color: #EADDCD;
+    display: inline-flex;
+    height: 30px;
+    border-radius: 7px;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    height: fit-content;
+    padding-top: 50px;
+}
+
+header h3 {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #EADDCD;
+    background-color: #fcf6f0;
+    border-radius: 10px;
+    box-shadow: 0 0 19px 5px #e0d0bc;
+    opacity: 0.9;
+    transition-property: padding, opacity;
+    transition-duration: 0.5s, 0.7s;
+    transition-timing-function: ease;
+}
+
+form:hover {
+    padding: 30px;
+    opacity: 1;
+}
+
+input[type="email" i] {
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+input[type="password" i] {
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.password {
+    font-size: 25px;
+}
+
+.emaild {
+    display: inline-block;
+    padding-left: 37px;
+}
+
+.passwordd {
+    display: inline-block;
+}
+
+.login {
+    width: max-content;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 15px;
+    border: none;
+    background-color: #64644fa9;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+a:hover {
+    color: red;
+}
+
+.signin {
+    position: absolute;
+    right: 15px;
+}
+
+.sinin {
+    border-radius: 11px;
+    border: none;
+    background-color: #868680a6;
+}
+
+.bsignin {
+    font-size: 11px;
+}
+
+.plogin {
+    font-size: 19px;
+}
